@@ -1,0 +1,10 @@
+<h1>handlebars!</h1>
+<p>hello!!!</p>
+<p>seu nome é {{user.name}}</p>
+<p>seu user name é {{user.userName}}</p>
+
+{{#if auth}}
+<p>você está autenticado, <a href="/dashboard">CLIQUE AQUI</a></p>
+{{else}}
+<p>você não está autenticado, <a href="/login">FAZER LOGIN</a></p>
+{{/if}}
